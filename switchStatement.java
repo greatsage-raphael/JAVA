@@ -4,7 +4,7 @@
 //D 60-69
 //E 50-59
 //F 0-49
-
+//swithes differ from if statements because they use a singular condition and multiple values to decide while if statements can have multiple conditions via else if 
 import java.util.Scanner;
 
 public class switchStatement {
@@ -31,7 +31,7 @@ public class switchStatement {
                 System.out.println("E");
                 break;
             case 4:
-                System.out.println("Pass");
+                System.out.println("Failure");
                 break;
             default:
                 System.out.println("Fail");
